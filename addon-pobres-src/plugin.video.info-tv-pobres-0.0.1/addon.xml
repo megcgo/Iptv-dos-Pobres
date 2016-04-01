@@ -10,4 +10,9 @@
         <summary>Info Listas Tv dos Pobres</summary>
         <description>Info Listas Tv dos Pobres</description>
     </extension>
+    <extension point="xbmc.addon.repository" name="MegCgo repository">
+        <info compressed="true">https://rawgit.com/megcgo/Iptv-dos-Pobres/master/plugins/addons.xml</info>
+        <checksum>https://rawgit.com/megcgo/Iptv-dos-Pobres/master/plugins/addons.xml.md5</checksum>
+        <datadir zip="true">https://rawgit.com/megcgo/Iptv-dos-Pobres/master/plugins/</datadir>
+    </extension>
 </addon>
