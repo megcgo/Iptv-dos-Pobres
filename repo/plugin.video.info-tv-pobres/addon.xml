@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.info-tv-pobres" name="info-tv-pobres" version="0.0.1" provider-name="megcgo">
+<addon id="plugin.video.info-tv-pobres" name="Info TV Pobres" version="0.0.1" provider-name="MegCgo">
     <requires>
     </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
+    <extension point="xbmc.python.pluginsource" library="app.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">

@@ -1,4 +1,2 @@
-- Version 0.0.1
-- First test version
-
-- 
+Version 0.0.1
+First test version

@@ -15,6 +15,13 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>
+
+#online_m3u = mysettings.getSetting('online_m3u')
+#local_m3u = mysettings.getSetting('local_m3u')
+#online_xml = mysettings.getSetting('online_xml')
+#local_xml = mysettings.getSetting('local_xml')
+
+
 """
 
 import urllib, urllib2, sys, re, os, unicodedata
@@ -28,10 +35,10 @@ home = mysettings.getAddonInfo('path')
 fanart = xbmc.translatePath(os.path.join(home, 'fanart.jpg'))
 icon = xbmc.translatePath(os.path.join(home, 'icon.png'))
 
-online_m3u = mysettings.getSetting('online_m3u')
-local_m3u = mysettings.getSetting('local_m3u')
-online_xml = mysettings.getSetting('online_xml')
-local_xml = mysettings.getSetting('local_xml')
+online_m3u = 'https://dl.dropboxusercontent.com/s/l3mb8p74uk84wie/iptv-dos-pobres.m3u?raw=1'
+local_m3u = ''
+online_xml = ''
+local_xml = ''
 
 xml_regex = '<title>(.*?)</title>\s*<link>(.*?)</link>\s*<thumbnail>(.*?)</thumbnail>'
 m3u_thumb_regex = 'tvg-logo=[\'"](.*?)[\'"]'
@@ -68,9 +75,9 @@ def make_request(url):
 			print 'Reason: ', e.reason
 			
 def main():
-	add_dir('[B]<<<  SEARCH  >>>[/B]', 'searchlink', 99, icon, fanart)
+	add_dir('[B]<<<  PROCURAR  >>>[/B]', 'searchlink', 99, icon, fanart)
 	if len(online_m3u) > 0:	
-		add_dir('[COLOR yellow][B]>> ONLINE M3U <<[/B][/COLOR]', u_tube, 2, icon, fanart)
+		add_dir('[COLOR yellow][B]>> Info Lista dos Pobres <<[/B][/COLOR]', u_tube, 2, icon, fanart)
 	if len(local_m3u) > 0:	
 		add_dir('[COLOR magenta][B]>> LOCAL M3U <<[/B][/COLOR]', u_tube, 3, icon, fanart)
 	if len(online_xml) > 0:	
