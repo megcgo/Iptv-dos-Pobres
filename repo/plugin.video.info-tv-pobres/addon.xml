@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.info-tv-pobres" name="info-tv-pobres" version="0.0.1" provider-name="megcgo">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Info Listas Tv dos Pobres</summary>
+        <description>Info Listas Tv dos Pobres</description>
+    </extension>
+</addon>
