@@ -1,0 +1,77 @@
+# Kodi Media Center language file
+# Addon Name: IPTV dos Pobres
+# Addon id: plugin.video.info-tv-pobres
+# Addon Provider: MegCgo
+# Translators:
+# Márcio Cardoso <megc@megc.pt>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addon IPTV dos Pobres\n"
+"Report-Msgid-Bugs-To: Facebook - Info Listas iptv dos Pobres\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-04-22 15:15+0000\n"
+"Last-Translator: Márcio Cardoso <megc@megc.pt>\n"
+"Language-Team: English (http://www.transifex.com/iptv-dos-pobres/kodi-addon-iptv-dos-pobres/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#33001"
+msgid "Canal a procurar"
+msgstr "Channel to search"
+
+msgctxt "#33002"
+msgid "PROCURAR"
+msgstr "SEARCH"
+
+# skipped 33002
+msgctxt "#33003"
+msgid "Animação"
+msgstr "Animation"
+
+msgctxt "#33004"
+msgid "Brasil"
+msgstr "Brazil"
+
+msgctxt "#33005"
+msgid "Câmeras"
+msgstr "Cameras"
+
+msgctxt "#33006"
+msgid "Desporto"
+msgstr "Sports"
+
+msgctxt "#33007"
+msgid "Espanha"
+msgstr "Spain"
+
+msgctxt "#33008"
+msgid "França"
+msgstr "France"
+
+msgctxt "#33009"
+msgid "Itália"
+msgstr "Italy"
+
+msgctxt "#33010"
+msgid "Música"
+msgstr "Music"
+
+msgctxt "#33011"
+msgid "Portugal"
+msgstr "Portugal"
+
+msgctxt "#33012"
+msgid "América"
+msgstr "America"
+
+msgctxt "#33013"
+msgid "Temporários"
+msgstr "Temporary"
+
+# skipped 33014-33019
+msgctxt "#33020"
+msgid "Rádios"
+msgstr "Radios"
