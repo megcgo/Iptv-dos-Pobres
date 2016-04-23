@@ -1,3 +1,6 @@
+[B]Version 0.0.6[/B] [2016-04-22]
+Added 3 Languages, Portuguese, English and Spanish
+
 [B]Version 0.0.5[/B] [2016-04-21]
 Added Category Temporários
 
