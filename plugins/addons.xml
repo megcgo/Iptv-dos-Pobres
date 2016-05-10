@@ -1,4 +1,5 @@
-﻿<addons>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.info-tv-pobres" name="[COLOR green]Info[/COLOR] [COLOR yellow]TV[/COLOR] [COLOR red]Pobres[/COLOR]" version="0.0.6" provider-name="[B]MegC[/B]go">
     <requires>
     </requires>
