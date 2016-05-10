@@ -13,10 +13,5 @@
         <disclaimer lang="en">All links found in this addon are the result of a search on the net, all of them are in any iptv site, we simply use these links and concentrate them in one place, therefore we disclaim any responsibility for them issued or shared content.[CR]For more information you can find us on facebook IPTV iNFO LISTS page.</disclaimer>
         <disclaimer lang="es">Todos los enlaces que se encuentran en este complemento son el resultado de una búsqueda en la red, todos ellos se encuentran en cualquier sitio IPTV, simplemente usamos estos enlaces y concentrarlos en un solo lugar, por lo tanto, no asumimos ninguna responsabilidad por ellos emitidos o contenido compartido.[CR]Para más información nos puede encontrar en la página de facebook, listas IPTV iNFO.</disclaimer>
     </extension>
-    <extension point="xbmc.addon.repository" name="MegCgo repository">
-        <info compressed="true">https://rawgit.com/megcgo/Iptv-dos-Pobres/master/plugins/addons.xml</info>
-        <checksum>https://rawgit.com/megcgo/Iptv-dos-Pobres/master/plugins/addons.xml.md5</checksum>
-        <datadir zip="true">https://rawgit.com/megcgo/Iptv-dos-Pobres/master/plugins/</datadir>
-    </extension>
 </addon>
 </addons>
