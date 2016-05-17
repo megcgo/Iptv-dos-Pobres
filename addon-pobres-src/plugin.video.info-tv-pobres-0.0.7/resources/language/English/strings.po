@@ -71,6 +71,10 @@ msgctxt "#33013"
 msgid "Temporários"
 msgstr "Temporary"
 
+msgctxt "#33014"
+msgid "World"
+msgstr "World"
+
 # skipped 33014-33019
 msgctxt "#33020"
 msgid "Rádios"

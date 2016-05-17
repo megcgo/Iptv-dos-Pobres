@@ -125,6 +125,10 @@ radios_fanart = xbmc.translatePath(os.path.join(home, 'resources/media/radios_fa
 radios_icon = xbmc.translatePath(os.path.join(home, 'resources/media/radios_icon.png'))
 radios = pobres('no5zkuupgttuv3x/vcgi-cboerf-Enqvbf')
 
+world_fanart = xbmc.translatePath(os.path.join(home, 'resources/media/world_fanart.jpg'))
+world_icon = xbmc.translatePath(os.path.join(home, 'resources/media/world_icon.png'))
+world = pobres('2bxjap8tapw9dle/vcgi-cboerf-jbeyq')
+
 def main():
 	add_dir('[COLOR white][B]>[/B][/COLOR] [I]' + trans(33002) + '[/I]  [COLOR white][B]>>[/B][/COLOR]', 'searchlink', 99, icon, fanart)
 #	if len(full) > 0:
@@ -151,6 +155,8 @@ def main():
 		add_dir(catstyle(trans(33012)), u_tube, 12, usa_icon, usa_fanart)
 	if len(temp) > 0:
 		add_dir(catstyle(trans(33013)), u_tube, 13, temp_icon, temp_fanart)
+	if len(world) > 0:
+		add_dir(catstyle(trans(33014)), u_tube, 14, world_icon, world_fanart)
 	if len(radios) > 0:
 		add_dir(catstyle(trans(33020)), u_tube, 20, radios_icon, radios_fanart)
 
@@ -235,6 +241,12 @@ def search():
 					m3u_playlist(name, url, thumb)	
 		if len(temp) > 0:		
 			content = make_request(temp)
+			match = re.compile(m3u_regex).findall(content)
+			for thumb, name, url in match:
+				if re.search(searchText, removeAccents(name.replace('Đ', 'D')), re.IGNORECASE):
+					m3u_playlist(name, url, thumb)	
+		if len(world) > 0:		
+			content = make_request(world)
 			match = re.compile(m3u_regex).findall(content)
 			for thumb, name, url in match:
 				if re.search(searchText, removeAccents(name.replace('Đ', 'D')), re.IGNORECASE):
@@ -394,6 +406,9 @@ elif mode == 12:
 
 elif mode == 13:
 	m3u_online(temp)
+
+elif mode == 14:
+	m3u_online(world)
 
 elif mode == 20:
 	m3u_online(radios)

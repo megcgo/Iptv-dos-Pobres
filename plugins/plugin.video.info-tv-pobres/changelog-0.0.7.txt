@@ -1,0 +1,20 @@
+[B]Version 0.0.7[/B] [2016-05-17]
+Added World category
+
+[B]Version 0.0.6[/B] [2016-04-22]
+Added 3 Languages, Portuguese, English and Spanish
+
+[B]Version 0.0.5[/B] [2016-04-21]
+Added Category Temporários
+
+[B]Version 0.0.4[/B] [2016-04-14]
+Added Category USA
+
+[B]Version 0.0.3[/B] [2016-04-09]
+Added artwork to categories
+
+[B]Version 0.0.2[/B] [2016-04-06]
+Added Group Folders and some cosmetic changes
+
+[B]Version 0.0.1[/B] [2016-04-01]
+First test version
